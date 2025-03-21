@@ -1,0 +1,22 @@
+https://docs.google.com/document/d/1Xv3-vlsJh6Si0TUh_iNkY8zd_OGpEYNVrshADeDX7Xo/edit?tab=t.0
+
+Goal:
+ "As a data analyst, conduct an in-depth analysis of the following data set: [insert data or link to data]. The objective is to extract meaningful insights, detect trends, and provide actionable recommendations based on a thorough examination of the data."
+
+Return Format:
+Data Preparation: Identify and clean missing or inconsistent values. Provide a brief summary of any preprocessing steps.
+Exploratory Data Analysis (EDA): Generate summary statistics and visualize key aspects of the data using charts and graphs.
+Statistical Testing: Apply relevant statistical tests (e.g., correlation analysis, hypothesis testing) to validate patterns and relationships in the data.
+Key Insights: Identify significant patterns, trends, and correlations within the data. Explain their implications in a concise yet comprehensive manner.
+Recommendations: Based on the findings, provide data-driven recommendations for decision-making or optimization.
+Report Summary: Present a well-structured summary of the findings in an easy-to-understand format, ensuring clarity for both technical and non-technical stakeholders.
+
+Warnings:
+Ensure data accuracy by verifying sources and handling outliers properly.
+Clearly define any assumptions made in the analysis.
+Avoid making unsupported claims—ensure conclusions are backed by statistical evidence.
+If certain analyses are inconclusive, specify the limitations and suggest further steps.
+
+Context Dump:
+ "For context, the dataset pertains to [describe the dataset’s industry, focus, and potential use case]. The key objective of this analysis is to [explain the intended impact or decision-making process]. The target audience for the final report includes [specify stakeholders, such as executives, marketing teams, researchers, etc.]. The expected level of technical detail should be [define the complexity level—e.g., beginner-friendly, technical deep dive]."
+
