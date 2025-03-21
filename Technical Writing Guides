@@ -1,0 +1,24 @@
+https://docs.google.com/document/d/1twcySK-dfTOB_ep8r4GxGgPU2fn8XwPPAQklN0O9DFE/edit?tab=t.0#heading=h.df0nnno46qic
+
+Goal:
+"As a technical writer, create a comprehensive and well-structured guide on [specific technology or process]. The guide should be suitable for both beginners and advanced users, covering key concepts, practical applications, and expert-level insights."
+
+Return Format:
+Introduction: Provide a high-level overview of the technology/process, including its purpose, history, and significance.
+Architecture & Functionality: Explain how it works, its core components, and its underlying principles. Use diagrams or flowcharts where applicable.
+Use Cases & Applications: Highlight real-world scenarios and industries where it is commonly used.
+Implementation Guide: Step-by-step instructions on how to set up, configure, or use the technology effectively.
+Best Practices: Offer expert recommendations for optimizing performance, security, and efficiency.
+Troubleshooting & FAQs: Address common issues, errors, and potential solutions.
+Advanced Insights: Provide deeper technical analysis, optimization techniques, and future trends (if applicable).
+Conclusion & Resources: Summarize key points and suggest further reading materials or official documentation.
+
+Warnings:
+Ensure accuracy by referencing up-to-date sources and official documentation.
+Clearly indicate any assumptions made in the guide.
+Avoid unnecessary technical jargon—ensure the content is accessible while remaining in-depth.
+If the topic involves security or compliance aspects, provide disclaimers where necessary.
+
+Context Dump:
+"For additional context, the user may provide supporting documents, research papers, or project requirements. These documents should contain relevant specifications, business use cases, or technical challenges to tailor the guide more effectively. If no documents are provided, base the guide on widely accepted industry standards and best practices."
+
