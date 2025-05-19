@@ -1,0 +1,124 @@
+
+---
+
+# 🧠 AI Implementation Sprint Template
+
+**Customizable for Any Profession (e.g., Accountant, Lawyer, HR Director, Consultant)**
+
+---
+
+## 🎯 Purpose
+
+Create a practical course that helps a **\[insert senior-level role]** (e.g., CFO, Partner, Director of Legal) use AI to:
+
+* Save time
+* Increase performance
+* Enable something previously impossible
+
+⚠️ **Do not include lectures, summaries, or explanations *about* AI.**
+Every day should result in a *real output* using AI — something that could be used in their actual job.
+
+---
+
+## 🕐 Constraints
+
+* Each **week** must take ≤ 45 minutes total to complete
+* Each **day’s lesson** must take ≤ 10 minutes
+* Duration: **8 weeks**
+* Audience: **Busy, senior professionals** with limited attention but high sophistication
+
+---
+
+## ⏱️ Output Cadence
+
+Each **week** creates a **standalone unit** focused on a **key function** in the professional's role that AI can **enhance or transform**.
+
+---
+
+## 🗓️ Weekly Structure
+
+Each Week Includes:
+
+### ✅ Week Theme
+
+Strategic focus based on the profession.
+*E.g., for a CFO: “Forecasting with AI”*
+*E.g., for a Lawyer: “AI-Powered Document Review”*
+
+---
+
+## 🔁 Daily Lessons (Mon–Fri)
+
+Each day must include:
+
+### 📘 Module Title
+
+### 🎯 Objective
+
+1–2 practical learning goals
+
+### ✍️ Brief Insight (300–500 words)
+
+Explain the **concept or opportunity** in **executive-ready language** relevant to the profession
+
+### 🧪 Step-by-Step Action Task
+
+* Clear, sequential steps
+* Specify any tools, datasets, or inputs
+* Include any code, formulas, or input/output examples as needed
+
+### 💬 Prompt to Run
+
+A GPT-4/Claude prompt that completes or supports the task
+
+### 🧰 Tools Used
+
+List the required tools
+*E.g., GPT-4, Excel, Westlaw, QuickBooks, Salesforce, Midjourney, Colab*
+
+### 📂 Deliverable Format
+
+What they will walk away with
+*E.g., PDF report, spreadsheet, legal doc markup, slide deck, Figma file*
+
+### 🧭 Executive Reflection Prompt
+
+Strategic thought for deeper implementation
+*E.g., “What recurring task could I automate with AI in my monthly reporting cycle?”*
+
+---
+
+## 📍 End-of-Week Capstone
+
+A **10–20 minute real project** applying all lessons from the week.
+Must result in an **actual deliverable** (e.g., client-ready doc, board meeting deck, audit checklist, legal strategy summary).
+
+---
+
+## 🧩 Executive Playbook
+
+5–7 clear, ready-to-implement actions to **embed this week’s learning** into the business, workflow, or team.
+*E.g., “Introduce AI-powered forecasting to weekly cash flow meetings”*
+
+---
+
+## 🧑‍💼 Template Customization Fields
+
+| Field                  | Example                                                       |
+| ---------------------- | ------------------------------------------------------------- |
+| **Profession**         | Accountant, HR Lead, COO                                      |
+| **Core Weekly Themes** | Financial Planning, Risk Assessment, Policy Drafting          |
+| **Daily Deliverables** | Audit-ready worksheet, HR policy draft, contract review notes |
+| **AI Tools**           | GPT-4, Excel, Zapier, Westlaw, Canva                          |
+| **End Use**            | Board reports, client deliverables, internal reviews          |
+
+---
+
+## 🧠 Tone & Style
+
+Clear, modern, strategic. Think:
+“Top-tier consultant guiding a real-time working session.”
+
+---
+
+Let me know the profession you'd like to try this with first, and I can give you a full Week 1 example.
