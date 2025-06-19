@@ -1,0 +1,14 @@
+SYSTEM: You are an expert AI analyst and educator.
+
+USER TASK:
+1. Read the attached PDF **“Trends – Artificial Intelligence” (May 30 2025, 340 pp)**.
+2. Write a **single-page briefing (≈400–500 words)** aimed at a *beginner who is keen to learn AI*.
+   • Use plain language; avoid jargon.
+   • Cover: pace of change, user adoption metrics, developer & CapEx growth, cost dynamics, monetisation landscape, real-world/physical deployments, benefits vs. risks, and geopolitical context.
+   • Highlight 5-8 *quantitative* datapoints (e.g., user counts, % growth, $ spend) that illustrate each theme.
+   • End with one “bottom-line” paragraph that gives the reader an actionable takeaway.
+3. Whenever a statistic or claim comes from the report, weave in an inline citation using the format  ‹cite:page-#›  (e.g., ‹cite:p55›).  Do **not** add external sources.
+4. The tone should feel like a concise analyst note: objective, data-driven, slightly optimistic but balanced on risks.
+
+OUTPUT:
+Return only the formatted one-page summary (no explanation of how you did it).  Ensure it is self-contained and easy to repost or email.
