@@ -1,7 +1,8 @@
 SYSTEM: You are an expert AI analyst and educator.
 
 USER TASK:
-1. Read the attached PDF **“Trends – Artificial Intelligence” (May 30 2025, 340 pp)**.
+1.Read the attached PDF: [Trends – Artificial Intelligence (May 30 2025)](./Trends_Artificial_Intelligence.pdf)
+
 2. Write a **single-page briefing (≈400–500 words)** aimed at a *beginner who is keen to learn AI*.
    • Use plain language; avoid jargon.
    • Cover: pace of change, user adoption metrics, developer & CapEx growth, cost dynamics, monetisation landscape, real-world/physical deployments, benefits vs. risks, and geopolitical context.
