@@ -1,0 +1,75 @@
+\\\
+
+### Reusable Prompt Template for Building AI Apps
+
+This template is designed to provide a comprehensive blueprint for an AI application. It is divided into two key parts: the User Interface (what the user sees) and the User Workflow (how the user and AI interact).
+
+---
+
+`# [Your App Name] App Concept`
+
+`**Core Idea:** [A single, clear sentence describing what the app does. e.g., "An app that analyzes a user's resume and helps tailor it for specific job descriptions."] `
+
+`---`
+
+`## 1. User Interface (UI) - The 'What'`
+*This section describes the visual layout and components of the app. It's the static blueprint.*
+
+`#### Header:`
+* `Title: "[Your App Name]"`
+
+`#### Main Area - Input:`
+* `Primary Input Method: [Describe the main input area. e.g., A large "Drag & Drop or Upload Your Document" area, a text box labeled "Paste your business plan here," or a field for a URL.]`
+* `Input Display: [Describe what happens once the input is provided. e.g., "Once a document is uploaded, its title and a brief summary appear on the left side of the screen as the 'Source' content."]`
+
+`#### Main Area - Instructions & Generation:`
+* `Instruction Input: A text input box labeled: "[Label for user's main instruction. e.g., 'What goal do you want to achieve?', 'Describe the analysis you need...']"`
+* `Example Prompt for User: [Provide an example of what a user might type. e.g., "Summarize this document into five key bullet points and identify the target audience."]`
+* `AI Suggestion Feature (Optional): [Describe how the AI can help the user write a better prompt. e.g., "Dynamic suggestion chips appear below the text box as the user types (e.g., if the user types 'summarize,' chips like 'into bullet points,' 'for an executive,' 'in 100 words' appear)."]`
+* `Primary Action Button: A prominent button labeled "[Action Button Text. e.g., 'Generate Analysis,' 'Create Draft,' 'Execute']"`
+
+`#### Main Area - Output:`
+* `Initial State: [Describe the output area before the user clicks the action button. e.g., "Initially empty with a message: 'Your results will appear here.'"]`
+* `Post-Generation State: [Describe what the output area looks like after generation. e.g., "The generated result appears on the right side of the screen, clearly labeled 'Generated Output.'"]`
+
+`#### Iteration/Refinement Controls:`
+* `Refinement Input: A smaller text input box labeled "[Label for refinement input. e.g., 'Refine your result...', 'Make changes...']"`
+* `Refinement Button: A button labeled "[Refine Button Text. e.g., 'Refine,' 'Update']"`
+* `Reset Button: A button labeled "[Reset Button Text. e.g., 'Start Over,' 'Clear']"`
+
+`---`
+
+`## 2. User Workflow & AI Interaction (UX) - The 'How'`
+*This section describes the step-by-step process of using the app. It defines the logic and the AI's specific role.*
+
+`#### Defining the AI's Role:`
+* `Persona: [Describe the AI's persona. Is it an expert, a creative assistant, a technical analyst? e.g., "The AI acts as an expert marketing consultant, focused on clarity, impact, and identifying key performance indicators."]`
+
+`#### Step 1: Provide Initial Input`
+* `User Action: [Describe the user's first step. e.g., "User uploads their quarterly sales report (a PDF)."]`
+* `App Response: [Describe what the app does immediately after. e.g., "The app displays the file name and confirms the number of pages on the left."] `
+
+`#### Step 2: Give Instructions`
+* `User Action: [Describe the main instruction the user gives. e.g., "User types into the instruction box: 'Create a presentation outline from this report for the Q3 board meeting.'"]`
+* `AI Interactive Assistance (if applicable):`
+    * `Example: If the user types "presentation," the AI suggests chips like "for executives," "with speaker notes," "focus on growth areas."`
+    * `Example: [Add another specific example of AI assistance.]`
+
+`#### Step 3: Generate Initial Output`
+* `User Action: User clicks the "[Action Button Text]" button.`
+* `App Response: [Describe the generation process and the resulting output. e.g., "The app sends the document content and the user's prompt to the model. It then displays a formatted presentation outline (Title, Agenda, Key Sections with bullet points) in the 'Output' area on the right."]`
+
+`#### Step 4: Refine & Iterate`
+* `User Action: [Describe how the user refines the output. e.g., "User types 'Expand the section on international sales with more data points and add a slide on future challenges.' in the refinement box."]`
+* `User Clicks: The "[Refine Button Text]" button.`
+* `App Response: [Describe how the app handles the refinement. e.g., "The app sends the original context, the initial prompt, and the new refinement instruction to the model. The 'Output' area updates the presentation outline with the requested changes."]`
+
+---
+
+### Why This Template Works
+
+* **Clarity and Structure:** It separates UI (the "what") from UX (the "how"), which is a fundamental principle of product design. This prevents confusion and helps the AI model understand every aspect of the request.
+* **State Definition:** It explicitly defines the state of the application at different points (e.g., "Initial State," "Post-Generation State"), which is crucial for building interactive experiences.
+* **Concrete Examples:** Providing specific examples for user prompts, AI suggestions, and outputs (`e.g., ...`) is the most effective way to guide the AI's behavior.
+* **Focus on Interaction:** It builds the AI's role directly into the workflow, defining it not just as a text generator but as an interactive partner in the user's task.
+* **Iteration Loop:** It includes a refinement step, which is a core feature of most powerful AI tools, allowing users to build on initial results instead of starting over.
