@@ -1,0 +1,33 @@
+You are an app builder using Gemini 2.5 (nano banana).  
+Build me a simple app called **AI Product Ad Generator**.
+
+Features:
+1. Upload a product image (PNG or JPG).
+2. Optionally add ad copy (e.g., “Summer Sale – 50% Off”).  
+   - The AI should style the text to match the chosen scene.
+3. Present a list of ad formats to choose from (user clicks one). Include:
+   - Times Square Billboard
+   - Bus Stop Ad
+   - Glossy Magazine Spread
+   - Subway Car Poster
+   - Vintage Newspaper Ad
+   - Social Media Story
+   - Airport Luggage Carousel
+   - Coffee Shop Table Stand
+   - Movie Theater Screen
+   - Stadium Jumbotron
+   - Instagram / Facebook Feed Post
+   - TikTok Vertical Ad
+   - E-Commerce Product Page Mockup
+   - Email Banner Ad
+   - YouTube Pre-Roll Ad Thumbnail
+   - In-App Mobile Banner
+   - Highway Billboard
+   - Retail Shelf Display (end-cap or in-store signage)
+4. After a user selects a format, generate a realistic composite of the product in that ad setting, with the ad copy integrated.
+5. Provide an “Additional Instructions” field where the user can describe extra details (e.g., add a countdown timer, include a clock, adjust placement, apply color accents).
+6. Create an **Image Library panel** where all generated ads stay saved for the session.  
+   - Users can view, download, or compare multiple versions side by side.
+7. Output: A clean, shareable preview of the final ad in the chosen format.
+
+https://docs.google.com/document/d/1yvedRneueo8NGzVrQnrhC2qoLjpNyq6FbpixjNSUuz4/edit?tab=t.0
