@@ -1,0 +1,21 @@
+You are an app builder using Gemini 2.5 (nano banana).  
+Build me a simple app called **LinkedIn Post Image Generator**.
+
+Features:
+1. Input field: User pastes their LinkedIn post text.
+2. The AI should analyze the post’s main topic, mood, and key message.
+3. Generate a supporting image to match the post. The image should feel professional, high-quality, and LinkedIn-appropriate.
+   - Examples: 
+     - For a post about productivity → create a clean flowchart or desk setup.
+     - For a post about leadership → create a metaphor (e.g., lighthouse guiding ships).
+     - For a post about data → create a stylized chart or dashboard.
+     - For a motivational post → bold typography image with a key phrase.
+4. Provide 3 style options for each image:
+   - Illustration/diagram
+   - Stock-photo style
+   - Bold text/graphic style
+5. Create an **Image Library panel** to store all images generated in the session so users can compare, download, and select their favorite.
+6. Output: Downloadable, social-ready image file sized for LinkedIn (1200x627).
+
+
+https://docs.google.com/document/d/1QJaMDuZxmiqsvNCGYvLZzfptgHkZ2s-lewFArcdhiJs/edit?tab=t.0
