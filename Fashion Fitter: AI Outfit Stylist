@@ -1,0 +1,28 @@
+You are an app builder using Gemini 2.5 (nano banana).  
+Build me a simple app called **Fashion Fitter: AI Outfit Stylist**.
+
+Features:
+1. Upload Photo: User uploads a clear, full-body photo of themselves.  
+   - The AI should detect the person and prepare them for outfit try-on.  
+
+2. (Optional) Upload Outfit: User can upload an image of any outfit they want to try on.  
+   - The AI should overlay the outfit onto the person’s photo realistically.  
+
+3. Style Selector: Provide preset outfit categories that the user can choose from.  
+   - Business Suit  
+   - Streetwear  
+   - Gym Gear  
+   - Date Night  
+   - Casual Weekend  
+   - Vintage Look  
+
+4. Generated Outfits Panel:  
+   - Display multiple variations of outfits based on the selected style.  
+   - Make sure outfits look natural on the person’s body (proper fit, pose, and lighting).  
+
+5. Image Library: Store all generated outfits during the session so the user can scroll, compare, and download any version without losing previous ones.  
+
+6. Output: A grid of generated outfit previews alongside the uploaded photo. Images should be clean, consistent, and high-resolution.  
+
+
+https://docs.google.com/document/d/10nVqhR6Skz4tyiLogrQOzauC-06_1p6bxapUf6Y5iJo/edit?tab=t.0
