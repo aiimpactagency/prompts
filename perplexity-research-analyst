@@ -1,0 +1,79 @@
+You are an analyst/designer. Produce both:
+a clean visual dashboard (interactive web application) and
+a structured JSON dataset that the dashboard is based on.
+
+## TOPIC CONFIGURATION
+**Primary Topic**: [INSERT YOUR TOPIC HERE - e.g., "Remote Work Tools 2025", "Sustainable Investment Options", "AI Business Applications", "Fitness Technology Trends"]
+
+**Scope Parameters**:
+- Target Audience: [INSERT TARGET - e.g., "global entrepreneurs", "small businesses", "individual consumers"]
+- Year/Time Period: [INSERT YEAR - e.g., "2025", "next 12 months"]
+- Budget/Cost Constraint: [INSERT CONSTRAINT - e.g., "≤ $1,000", "under $500", "enterprise budget"]
+- Geographic Focus: [INSERT REGION - e.g., "global", "North America", "English-speaking markets"]
+
+## ANALYSIS FRAMEWORK
+Identify 12–18 [TOPIC ITEMS] with high [PRIMARY METRIC] and fast [SECONDARY METRIC] that meet the constraints. Score each item on:
+
+**Primary Score (0–100)**: [DEFINE PRIMARY METRIC - e.g., "ProfitabilityScore", "EffectivenessScore", "ROIScore"]
+**Secondary Score (0–100, higher = better)**: [DEFINE SECONDARY METRIC - e.g., "TimeToImplementScore", "EaseOfUseScore", "AdoptionSpeedScore"]
+
+Also provide: [LIST 8-10 ADDITIONAL METRICS - e.g., "startup cost range, monthly impact range, complexity level, learning curve, key risks, prerequisites, tool requirements, scalability, implementation plan"]
+
+### Scoring Framework (use these weights)
+**Primary Score (0–100)**
+- [Factor 1]: 35% [e.g., "Market demand/TAM proxy"]
+- [Factor 2]: 30% [e.g., "Unit economics/value proposition"] 
+- [Factor 3]: 20% [e.g., "Competitive advantage/differentiation"]
+- [Factor 4]: 15% [e.g., "Scalability/sustainability"]
+
+**Secondary Score (0–100; higher = better)**
+- [Factor 1]: 35% [e.g., "Implementation complexity"]
+- [Factor 2]: 25% [e.g., "Knowledge/skill requirements"]
+- [Factor 3]: 20% [e.g., "Regulatory/compliance barriers"]
+- [Factor 4]: 20% [e.g., "Resource requirements"]
+
+Normalize to 0–100. Mark low-confidence estimates.
+
+### Constraints & Filters
+- [CONSTRAINT 1]: [e.g., "Online-first solutions"]
+- [CONSTRAINT 2]: [e.g., "Viable for individuals or small teams"]  
+- [CONSTRAINT 3]: [e.g., "No regulatory licensing required"]
+- Exclude: [LIST EXCLUSIONS - e.g., "ideas needing >$X upfront, high-risk investments, multi-year commitments"]
+- Note regional/legal caveats when relevant.
+
+## OUTPUT REQUIREMENTS
+
+### 1) INTERACTIVE WEB DASHBOARD
+Create a professional, interactive web application with:
+
+**Header Section:**
+- Title: "[YEAR] [TOPIC]: [PRIMARY METRIC] & [SECONDARY METRIC] Analysis"  
+- Subtitle: "Data-driven insights for [TARGET AUDIENCE]"
+- KPI tiles showing:
+  - Top [Primary Score] (name + score)
+  - Median [Cost/Investment Metric]
+  - Best [Secondary Score] (name + score) 
+  - Median [Key Performance Metric]
+
+**Main Features:**
+- Interactive sortable/filterable data table with visual progress bars
+- Scatter plot: Primary Score vs Secondary Score (with quadrant analysis)
+- Bar charts: Top 10 by Primary Score, distribution analysis
+- Search and filter functionality
+- Responsive design with professional styling
+
+**Insights Panel:**
+- Top 5 by Primary Score
+- Top 5 by Secondary Score  
+- Best "effort-to-reward" ratio (harmonic mean of both scores)
+- Notable outliers and risk analysis
+- Market timing insights
+
+**Strategy Section:**
+- 3 strategic approaches/playbooks
+- Implementation roadmaps
+- Tool recommendations
+- Success milestones
+
+### 2) STRUCTURED JSON DATASET
+Return JSON array where each item has:
