@@ -1,0 +1,72 @@
+
+---
+
+# [App Name] App Concept
+
+**Core Idea:** [One clear sentence about the transformation. e.g., "An app that lets users preview how their space, object, or image will look after applying a chosen modification."]
+
+---
+
+## 1. User Interface (UI) - The 'What'
+
+#### Header:
+
+* **Title:** "[App Name]"
+
+#### Main Area - Input:
+
+* **Primary Input Method:** A large "Click to upload or drag and drop" box for uploading images (PNG, JPG, WEBP, etc.).
+* **Input Display:** Once uploaded, the original image appears in the **"Before"** box on the left.
+
+#### Main Area - Instructions & Generation:
+
+* **Instruction Input:** A text box labeled: *"Describe the change you want to see (e.g., 'Apply new paint color,' 'Add modern furniture,' 'Turn this into a night scene')."*
+* **Example Prompt for User:** *"Make the walls sky blue and add wooden flooring."*
+* **AI Suggestion Feature (Optional):** As users type, suggestion chips appear with smart completions related to the domain (e.g., if the app is for landscaping, typing "trees" suggests *"add palm trees," "plant flowers," "trim hedges"*).
+* **Primary Action Button:** A prominent button labeled **"[Action Text — e.g., 'Visualize,' 'Transform Image']"**.
+
+#### Main Area - Output:
+
+* **Initial State:** Right-hand side is blank with a placeholder: *"Your vision will appear here."*
+* **Post-Generation State:** The modified image appears in the **"After"** box, showing the requested transformation.
+
+#### Iteration/Refinement Controls:
+
+* **Refinement Input:** A smaller text box labeled *"Refine your result..."*
+* **Refinement Button:** A button labeled **"Update Preview"**
+* **Reset Button:** A button labeled **"Start Over"**
+
+---
+
+## 2. User Workflow & AI Interaction (UX) - The 'How'
+
+#### Defining the AI's Role:
+
+* **Persona:** The AI acts as a [domain expert — e.g., designer, consultant, stylist], helping the user realistically visualize transformations.
+
+#### Step 1: Provide Initial Input
+
+* **User Action:** User uploads an image (room, object, garden, etc.).
+* **App Response:** The app displays the uploaded image in the **"Before"** box and prompts for instructions.
+
+#### Step 2: Give Instructions
+
+* **User Action:** User types a desired change (color, style, modification, etc.).
+* **AI Interactive Assistance:**
+
+  * If the user types a vague term, the AI suggests clarifying chips (e.g., typing "modern" → *"Modern minimalist," "Modern industrial," "Modern cozy"*).
+
+#### Step 3: Generate Initial Output
+
+* **User Action:** User clicks the **"[Action Button]"**.
+* **App Response:** The app applies the requested transformation and displays the modified result in the **"After"** box.
+
+#### Step 4: Refine & Iterate
+
+* **User Action:** User requests refinements (e.g., *"Make it brighter," "Change to nighttime," "Add more plants"*).
+* **User Clicks:** The **"Update Preview"** button.
+* **App Response:** The app re-generates the result, updating the **"After"** box with refinements.
+
+---
+
+
