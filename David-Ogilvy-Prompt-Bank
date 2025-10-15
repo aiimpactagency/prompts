@@ -1,0 +1,278 @@
+https://docs.google.com/document/d/1UfDSAuBmqduGCF7oTYK7Wy2dapmipF2sTgOP9zqG1io/edit?tab=t.0
+
+🧠 David Ogilvy Prompt Bank
+A collection of prompts inspired by the copywriting methods of David Ogilvy — designed for writing, grading, and improving persuasive marketing copy.
+
+📘 How to Use
+Define your variables (see table below).
+
+
+Choose a prompt — either for writing, analyzing, or optimizing.
+
+
+Paste it into ChatGPT, Gemini or Claude, fill in your variables, and run it.
+
+
+Save and reuse your best results — they’ll become your personal “Ogilvy Swipe File.”
+
+
+
+✏️ Variables
+Use these placeholders to personalize any prompt.
+Placeholder
+Description
+{who}
+Target audience or ideal customer
+{what}
+Product, service, or offer
+{benefit}
+Core outcome or main promise
+{pain}
+Biggest frustration or problem
+{time}
+Timeframe for result or benefit
+{proof}
+Supporting evidence (stats, testimonials, metrics)
+{tone}
+Tone or voice (e.g., confident, warm, bold)
+{limit}
+Scarcity or urgency (optional)
+
+
+
+⚡ Section 1: Creative Prompts (1–9)
+Classic Ogilvy headline archetypes re-imagined for AI.
+
+1. Desire Fulfillment
+Write a headline that promises {benefit} by {time}, using clear, direct language.
+
+2. Curiosity Gap
+Generate a headline that raises a question about {what} and {benefit} — creating an irresistible curiosity gap.
+
+3. Benefit Spotlight
+Create a headline focusing on the single most powerful benefit of {what}, centered on {benefit}.
+
+4. Crystal Clear
+Develop a headline that explains {what} and its main benefit in simple, conversational language.
+
+5. Pain Point Fixer
+Write a headline that names {pain} and offers a clear solution, using “you” or “your” language.
+
+6. Specific Benefit
+Create a headline that features a measurable or numeric benefit, in an approachable and confident tone.
+
+7. Transformation Promise
+Craft a headline that promises a major before-and-after transformation through {what}, directly addressing {pain}.
+
+8. Simplicity Angle
+Write a headline that shows how {what} simplifies a complex challenge for {who}.
+
+9. Urgency or Exclusivity
+Create a headline that drives action with urgency or scarcity, including {limit} if relevant.
+
+🧩 Section 2: Ogilvy Headline Generator (Super Prompt)
+Use this to generate dozens of high-performing headline variations at once.
+
+Prompt
+You are a “David Ogilvy meets modern CRO” copy strategist.
+Inputs
+Audience: {who}
+
+
+Product: {what}
+
+
+Benefit: {benefit}
+
+
+Pain Point: {pain}
+
+
+Proof: {proof}
+
+
+Timeframe: {time}
+
+
+Tone: {tone}
+
+
+Limit (optional): {limit}
+
+
+Task
+Generate 30 headlines (at least 3 per archetype) across these angles:
+
+
+Direct Benefit
+
+
+How-To
+
+
+Curiosity / Question
+
+
+List / Reasons Why
+
+
+Announcement / News
+
+
+Pain → Solution
+
+
+Specific Number
+
+
+Transformation / Before–After
+
+
+Simplicity / Ease
+
+
+Scarcity / Exclusivity
+
+
+Keep headlines under 12 words.
+
+
+Use “you/your” language and include a number or timeframe in 60% of them.
+
+
+Avoid hype words like “miracle” or “unbelievable.”
+
+
+Write at a Grade-6 reading level.
+
+
+Tag each headline with its archetype and a short reason why it works.
+
+
+Pick your Top 10.
+
+
+Create 5 A/B headline pairs that isolate one variable (verb, number, timeframe, etc.).
+
+
+Output Format
+Full list of all headlines
+
+
+Top 10 headlines
+
+
+5 A/B headline pairs
+
+
+CSV table with: Headline | Archetype | Why It Works
+
+
+
+🔍 Section 3: Ogilvy Copy Grader (Advanced)
+Use this to analyze and rewrite any landing page using Ogilvy’s timeless advertising principles.
+
+Prompt
+“You are an advertising strategist trained in David Ogilvy’s principles.
+Task
+Visit the provided URL.
+
+
+Extract the main marketing copy (ignore footer, navigation, cookie notices, or blogs).
+
+
+Score the copy out of 100 using the 15 principles below (each worth ~6.7 points).
+
+
+Provide a detailed score breakdown.
+
+
+Identify the Top 3 areas to improve.
+
+
+Suggest edits to reach 100/100.
+
+
+Rewrite the copy with all improvements applied.
+
+
+
+15 Ogilvy Scoring Principles
+#
+Principle
+Description
+1
+Product Positioning
+Is the offer clear? Who’s it for, and why it matters.
+2
+Unique Benefit
+One specific, standout benefit.
+3
+Headline
+Clear, specific, benefit-driven, or curiosity-led.
+4
+Reader-Focused
+Speaks to the reader, not the brand.
+5
+Clear Tone
+Plainspoken, not corporate or vague.
+6
+Simple Language
+No jargon — easy to read quickly.
+7
+Evidence
+Includes proof, facts, stats, or testimonials.
+8
+Emotion / Story
+Adds emotional pull or narrative.
+9
+Structure
+Logical, scannable, and easy to follow.
+10
+Call-to-Action
+Clear next step with strong motivation.
+11
+Visuals / Captions
+Support the main message if present.
+12
+Testability
+Can parts be tested or measured.
+13
+Length
+Matches the complexity of the offer.
+14
+Attention-Grabbing
+Hooks the reader immediately.
+15
+Repetition
+Key ideas reinforced effectively.
+
+
+Output Format
+URL Analyzed: [Insert URL]
+ Overall Score: X / 100
+Principle
+Score (0–6.7)
+Comments
+Product Positioning
+X.X
+…
+Unique Benefit
+X.X
+…
+…
+…
+…
+
+Top 3 Areas to Improve
+…
+
+
+…
+
+
+…
+
+
+Rewrite (Target Score: 100/100)”
+
