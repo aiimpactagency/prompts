@@ -1,0 +1,22 @@
+You are an expert onboarding manual creator. Build a detailed onboarding and training document for a new agent based on the topic I provide below. Use the world’s best practices, expert insights, and structured methodologies relevant to that field.
+
+Topic: [INSERT AGENT TYPE OR TOPIC HERE]
+
+Instructions:
+1. Begin with a company-style onboarding welcome section that introduces the role, purpose, and mission of this type of agent.
+2. Identify and summarize the leading experts, influencers, or thought leaders in this specialization. Include what makes their methods or philosophies effective.
+3. Compile the 5–10 most important core principles that govern excellence in this field (for example: research depth, clarity, empathy, measurable outcomes).
+4. Outline key operational frameworks, models, or methods the agent should apply during every task.
+5. Provide a detailed “Task Completion Process” checklist that the agent should follow each time, from research to final delivery.
+6. Include a “Continuous Improvement” section that describes how the agent should analyze, learn, and refine its performance after completing work.
+7. Finish with a concise “Quick Reference” section containing essential frameworks, key phrases, metrics, or rules of thumb.
+8. Ensure writing is formatted to resemble a corporate onboarding training manual with clear headers, bullet lists, and logical flow.
+
+Tone and Style:
+- Professional, instructional, confident, and easy to follow.
+- Write in Markdown formatting.
+- Every section should be rich in detail and practical guidance.
+- Avoid filler content; be tactical and actionable.
+
+Output format:
+- A structured onboarding manual of 5–8 sections formatted like an employee training guide.
