@@ -1,0 +1,122 @@
+Attach this doc - https://docs.google.com/spreadsheets/d/1K19ID05cgb-n7yFEeuBPQCUY3np2mPe8ICN8953CkwM/edit?gid=1911652776#gid=1911652776 
+
+
+PROMPT
+
+You are an AI strategist, analyst, and dashboard designer.
+
+Your task:
+Analyze the uploaded document that lists 200+ ways to make money with AI and produce BOTH:
+1. A **personalized AI income opportunity report** (3–7 ideas best suited to me)
+2. An **interactive dashboard** built directly in ChatGPT Canvas or using Python visualizations.
+
+---
+
+## INPUT CONTEXT
+Use what you know about me from chat history **OR** what I enter below.
+
+[User Input Field — optional]
+• Who I am / what I do  
+• Skills and strengths  
+• Available time or budget  
+• Monetization goals (e.g. passive income, consulting, audience growth)  
+
+---
+
+## STEP 1: SCAN & MATCH
+From the uploaded document:
+- Identify the best-fit AI income opportunities for me.
+- Evaluate each idea based on:
+  - Alignment with my background and goals  
+  - Skill match  
+  - Startup cost & time to revenue  
+  - Ease of execution  
+  - Long-term scalability & recurring potential  
+
+Select the **top 5–7 ideas** with the strongest alignment.
+
+---
+
+## STEP 2: SCORING FRAMEWORK
+Assign the following metrics:
+
+**Primary Score (0–100)** → Profitability Potential  
+**Secondary Score (0–100)** → Ease & Speed to Launch  
+**Tertiary Score (0–100)** → Scalability
+
+Then calculate a **Composite Opportunity Index**:  
+`Opportunity Index = (Profitability * 0.5) + (Ease * 0.3) + (Scalability * 0.2)`
+
+Add supporting data:
+- Startup Cost ($ / $$ / $$$)
+- Time to First Revenue (weeks / months)
+- Confidence (Low / Medium / High)
+- Recommended AI Tools / Tech Stack
+- Monetization Model
+- Skill Level Required (Beginner / Intermediate / Expert)
+- “Fit Reason” (short explanation why it matches me)
+
+---
+
+## STEP 3: DATASET STRUCTURE
+Return data as both a table and a JSON array:
+
+{
+  "idea": "",
+  "category": "",
+  "profitability": "",
+  "ease": "",
+  "scalability": "",
+  "opportunity_index": "",
+  "startup_cost": "",
+  "time_to_revenue": "",
+  "confidence": "",
+  "ai_tools": "",
+  "monetization_model": "",
+  "fit_reason": ""
+}
+
+---
+
+## STEP 4: DASHBOARD GENERATION
+Build a clean dashboard with these elements:
+
+**Header:** “Top AI Income Paths for [User’s Name]”
+
+**KPI Tiles:**
+- Highest Profitability
+- Highest Ease
+- Highest Scalability
+- Fastest Time to Revenue
+- Median Startup Cost
+
+**Charts:**
+1. **Bar Chart:** Profitability vs Ease (Top 7 Ideas)
+2. **Scatter Plot:** Opportunity Index vs Startup Cost (size = scalability)
+3. **Radar Chart (optional):** Profitability, Ease, Scalability comparison
+4. **Sortable Table:** all metrics with color-coded “Opportunity Index”
+
+**Insights Panels:**
+- **Strategic Summary:** 150–200 words explaining:
+  - Which ideas have the fastest payback  
+  - Which have the highest long-term upside  
+  - Which are low-barrier entry options  
+  - Key trade-offs or risks
+- **“If I were you” Section:** 3 sentences giving action priorities
+- **Quick-Win Plan:** one line per idea (“Next step this week”)
+
+---
+
+## STEP 5: INTERACTIVITY (SIMULATION MODE)
+Allow pseudo-interactivity:
+- Ask: “Would you like to re-rank based on [Profit vs Ease / Short-Term vs Long-Term]?”
+- If user updates constraints (e.g. “budget = $500” or “I want recurring income”), re-score dynamically.
+
+---
+
+## STEP 6: OUTPUT REQUIREMENTS
+Return:
+1. JSON dataset (for charts)
+2. Rendered dashboard (charts + KPI tiles + table)
+3. Strategic Insights summary
+4. Quick-Win recommendations
