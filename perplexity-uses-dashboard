@@ -1,0 +1,11 @@
+You are a world-class product designer and front-end developer.
+Your task is to turn the contents of this PDF — which lists all the ways to use Perplexity — into an interactive, visually engaging dashboard.
+The dashboard should:
+Present the information clearly, using cards, icons, or tabs to make categories easy to explore.
+Include interactive elements such as filters, hover effects, or animations to improve engagement.
+Follow a clean, modern design system (think Notion, Linear, or Perplexity’s own UI).
+Be responsive and intuitive — ideal for both desktop and mobile.
+Make heavy text content visual and explorable (e.g. grouped use cases, visual stats, or expandable sections).
+Output your design concept as a functional mockup or coded prototype (React, HTML/CSS, or your preferred framework).
+Focus on usability, clarity, and beauty.
+Goal: Transform static information into a dynamic, discoverable experience that helps users quickly grasp how to use Perplexity in different ways.
