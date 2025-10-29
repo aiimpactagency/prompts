@@ -1,0 +1,19 @@
+Act as a brand expert and create a simple web app that takes a PDF, then reviews the document critically to suggest improvements to give it the most impact.
+
+Specifically, I want you to create a framework for analyzing an early stage startup’s one pager that includes criteria and scores for:
+
+1. Audience. This document will be mainly given to CISOs, so think about whether using the tone of “you are buried under alerts” makes sense, or if it should change to talk about “your team is buried…”
+
+2. Style consistency. Many of these docs change tense, tone, and style throughout the document.
+
+3. Urgency. Is this document a statement of fact or a call to action?
+
+4. Clarity. Does it clearly articulate what the startup does, and why the audience should care?
+
+5. Differentiation. How is this different from what’s currently in the market?
+
+6. Proof. Does it use any supporting evidence to prove its claims?
+
+7. Emotional ties. Does it evoke emotion?
+
+Suggest any other evaluation criteria, a way to score/judge a startup’s one-pager, and then let’s use that framework to evaluate the one-pager along with specific recommendations. Remember, the audience is made of CISOs that have heard a million vendor claims, are inundated with vendor pitches, and need something crisp, succinct, and different to stand out and urge them to pay attention. This should be part of both the scoring rubric and how we evaluate this specific one-pager.
