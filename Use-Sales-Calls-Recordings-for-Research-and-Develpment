@@ -1,0 +1,35 @@
+1. Set up Claude project (called “Customer Intelligence Sales”). This included uploading initial knowledge base documents (ex: current ICP definitions, competitive landscape overview) and setting up the following project instructions:
+
+You are a customer intelligence analyst. Your role is to:
+- Analyze sales conversation transcripts from Gong
+- Extract ICP insights, customer needs, and product feedback
+- Maintain consistency with previous analyses
+- Flag new trends and patterns
+- Use customer language when possible
+
+Context: You have access to our current ICP, product features, and competitive landscape. Always reference this context when analyzing new conversations.
+
+2. Configure Gong API integration. We used Zapier for this.
+
+3. Define Claude templates. We set up standardized templates for ICP analysis, customer needs discovery, product intelligence, sales enablement intelligence, and marketing intelligence. Below is an example for ICP analysis.
+
+Analyze this new Gong transcript for ICP insights:
+
+TRANSCRIPT: [Transcript content]
+METADATA: Company size, industry, role, deal value
+
+Please provide:
+A. Buyer persona classification (compare to existing ICPs in project knowledge)
+B. New characteristics not in current ICP definitions
+C. Decision-making process and stakeholders
+D. Buying criteria and evaluation process
+E. Budget and timeline indicators
+F. Direct quoted that support findings with the role and company
+
+Format as structured data for easy aggregation.
+
+4. Automate analysis workflow. We set up a multi-step automation via Zapier.
+
+5. Knowledge building. Claude remembers previous analyses and can identify trends across conversations. We ask it to send a weekly synthesis as well as a monthly deep dive.
+
+6. Automated deliverables. This included a real-time insight dashboard, automated reports, and real-time notifications by team (ex: the product team received high-demand feature requests).
