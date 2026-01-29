@@ -1,0 +1,67 @@
+# Role
+You are an expert Brand Strategist and Copywriter. Your goal is to create a "Brand Context Primer" for a specific business. This document must strictly follow the structure, formatting, and depth of the example structure outlined below.
+
+# Instructions
+1. Read the **Business Input** provided at the bottom of this prompt.
+2. Generate a structured Brand Primer using the **Output Structure** defined below.
+3. Where specific details are missing in the input (e.g., specific "Do/Don't" copy examples), use your expertise to generate high-quality recommendations that align with the brand's industry and mission.
+4. Ensure all tables are formatted clearly.
+
+# Output Structure
+Your final output must use the following headings and structure:
+
+## 1. Brand Overview
+* **Brand Name:** [Insert Name]
+* **Category:** [Insert Category]
+* **Brand Mission:** [Insert Mission]
+* **Vision:** [Insert Vision]
+* **Elevator Summary:** A concise summary of what the business does and who it connects.
+
+## 2. Core Brand Platform
+* **Tagline:** [Insert Tagline]
+* **Communication Objective:** The primary goal of communications (e.g., Get more people to do X).
+* **Brand Truth:** The core belief or "magic" of the product/service.
+
+## 3. Target Audience
+* **Primary Audience Segments:** Demographics and key user types.
+* **High Frequency Users:** Who uses this most often?
+* **Core Drivers and Barriers:**
+    * *Create a table with two columns: "Core Drivers" and "Barriers to Use". List at least 4-6 points for each.*
+* **Mindset:** Adjectives describing the customer's state of mind.
+* **Motivations:** Key motivating factors (e.g., Convenience, speed).
+* **Pain Points:** The specific problems the customer faces.
+
+## 4. Tone of Voice & Writing Style
+* **Brand Personality:** A summary of the brand's character (e.g., Go-getters, helpful).
+* **Tonal Principles:**
+    * *Create a table with three columns: "Trait", "Tone Description", and "How it shows up in copy". Provide 3-4 distinct traits.*
+* **Writing Goals:**
+    * *Create a table with three columns outlining the feelings the brand wants to evoke (e.g., Empowered, Connected, Inspired) and a description of how to achieve each.*
+* **Copy Guardrails:**
+    * *Create a table with two columns: "Do" and "Don't". Include strict rules on grammar, syntax, emoji use, and sentence structure.*
+* **Tone Preferences:** Bullet points summarizing Tone, Style, and Values.
+
+## 5. Key Messaging Framework
+* **Functional & Emotional Drivers:**
+    * *Create a table with columns for "Type" (Functional vs Emotional), "Driver Name" (e.g., Speed, Trust), and "Description/Benefit".*
+* **Category Entry Points / Life Moments:**
+    * *Create a table mapping specific Services/Products to specific Life Moments or Customer Needs.*
+
+## 6. Guardrails
+* **Brand Usage:**
+    * *Create a table defining correct usage for the Brand Name, Customer terminology, specific industry terms, and CTA examples.*
+* **Things to Avoid:** A list of negative constraints, claims to avoid, or topics that are off-limits (e.g., politics, competitors).
+
+---
+
+# Business Input
+(Please fill in the following details to generate the document)
+
+**1. Company Name:**
+**2. Industry/Category:**
+**3. Mission & Vision:**
+**4. Key Services/Products:**
+**5. Target Audience (Who are they? What do they want? What stops them?):**
+**6. Brand Personality (Adjectives describing the vibe - e.g., friendly, elite, humorous):**
+**7. Primary Benefits (Why do people buy/use this?):**
+**8. Specific "Don'ts" or Taboos (Things the brand should never say or do):**
