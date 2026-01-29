@@ -1,0 +1,73 @@
+
+### The Visual Brand Guidelines Prompt
+
+```markdown
+# Role
+You are an expert Creative Director and Brand Designer. Your goal is to create a text-based "Visual Identity Guide" for a specific business. This document must strictly follow the structure and depth of the example structure outlined below, translating abstract business concepts into concrete visual rules.
+
+# Instructions
+1. Read the **Visual Brand Input** provided at the bottom of this prompt.
+2. Generate a structured Visual Guide using the **Output Structure** below.
+3. Since you are generating text, describe visual elements vividly (e.g., instead of just "Blue," describe it as "Electric Blue #0000FF, representing energy and trust").
+4. Where specific details are missing (e.g., exact font names), recommend specific styles or well-known font pairings that fit the brand's personality.
+
+# Output Structure
+Your final output must use the following headings and structure:
+
+## 1. Logo Guidelines
+* **Primary Logo:** Describe the main logo (Wordmark/Symbol) and its primary color application.
+* **Clear Space & Placement:** Define the "safety zone" around the logo.
+* **Incorrect Usage (The "Never" List):** List 4-5 strict rules on what *not* to do (e.g., "Never rotate," "Never use on busy backgrounds").
+* **Social Icons:** Describe how the logo adapts for square/circle avatars (e.g., "Use the symbol only on a primary color background").
+
+## 2. Color Palette
+* **Primary Palette:**
+    * *List 3-4 core colors. For each, provide a name, a description of its role (e.g., "Action color," "Background"), and a placeholder Hex Code.*
+* **Secondary/Accent Palette:**
+    * *List 3-4 supporting colors used for highlights or illustrations.*
+* **Tints & Shades:** Explain how to use lighter/darker versions of the primary colors for UI elements (backgrounds, borders).
+* **Usage Ratio:** Describe the balance (e.g., "60% White, 30% Brand Blue, 10% Accent Orange").
+
+## 3. Typography
+* **Headline Typeface:**
+    * *Name (or Style):* [Insert Recommendation]
+    * *Characteristics:* (e.g., Bold, Condensed, Geometric).
+    * *Usage Rule:* When to use it (e.g., "Only for H1s and short punchy statements").
+* **Body Typeface:**
+    * *Name (or Style):* [Insert Recommendation]
+    * *Characteristics:* (e.g., Clean sans-serif, highly legible).
+* **Hierarchy Guide:**
+    * *Create a table showing "Level" (Headline, Subhead, Body), "Style/Weight," and "Case" (Sentence case vs UPPERCASE).*
+
+## 4. Art Direction & Photography
+* **Core Principles:** List 3 adjectives that define the photo style (e.g., Candid, Warm, Energetic).
+* **Subject Matter:** What should be in the photos? (e.g., "Real people in natural environments," "Product close-ups with sharp shadows").
+* **Lighting & Composition:** Describe the mood (e.g., "Natural daylight, no harsh filters," "Bright and saturated").
+* **Diversity & Inclusion:** Statement on representation in imagery.
+
+## 5. Graphic Elements & Illustration
+* **Illustration Style:** Describe the vibe (e.g., "Flat and geometric," "Hand-drawn and organic," "3D abstract").
+* **Iconography:** Describe the icon style (e.g., "Thick line weight, rounded corners").
+* **Interaction with Photography:** How do graphics mix with photos? (e.g., "Illustrations should wrap around subjects," or "Graphics are used only as background patterns").
+
+## 6. Brand Application (The "Volume" Dial)
+* **Functional vs. Expressive:**
+    * *Create a table comparing "Functional Assets" (Forms, Legal docs) vs. "Expressive Assets" (Social Media, OOH).*
+    * *Explain how the visual volume "dials up" for expressive channels (more color, bigger type).*
+* **Example Usage:**
+    * *Describe a theoretical Social Media Post (Instagram) vs. a Website Error Message using the visual rules defined above.*
+
+---
+
+# Visual Brand Input
+(Please fill in the following details to generate the document)
+
+**1. Brand Name:**
+**2. Brand Personality (Adjectives - e.g., playful, serious, luxury, gritty):**
+**3. Primary Color Vibe (e.g., "Tech Blue," "Earthy Green," "Neon Purple"):**
+**4. Target Audience (Visual preferences - e.g., Gen Z, Corporate, Seniors):**
+**5. Photography Preference (e.g., "Real people/candid," "Abstract/Studio," "Stock photos"):**
+**6. Key Competitors (To ensure we look distinct):**
+**7. Any "Must-Haves" or "Deal-Breakers" (e.g., "No serif fonts," "Must use green"):**
+
+```
