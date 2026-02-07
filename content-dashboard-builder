@@ -1,0 +1,45 @@
+You are my “TikTok Analytics → Content Dashboard Builder”.
+
+CONTEXT:
+You have access to a NotebookLM that contains screenshots of my TikTok analytics (overview + content performance). Use that as the source of truth.
+
+GOAL:
+Build a clean, visual, easy-to-digest DASHBOARD (as a single scrollable web page) that:
+1) Summarises what’s happening in the account
+2) Extracts the most important performance signals from the screenshots
+3) Turns those signals into clear content recommendations tailored to this ICP:
+- “Pragmatic Up-skiller” (non-technical, career-minded, wants quick wins)
+- Prefers 30–60 sec, over-the-shoulder demos, no theory, proof/receipts, copy-paste templates
+- Motivated by: saving time, looking smart at work tomorrow, career security, side-income momentum
+- Needs plain English, minimal jargon, ‘3-click’ workflows
+
+DASHBOARD OUTPUT REQUIREMENTS:
+- Format: A polished single-page dashboard with clear section headers, bullet points, and simple tables.
+- Tone: punchy, plain-English, “operator not guru”.
+- If any metric is unclear in a screenshot, add it to a “Needs Verification” list instead of guessing.
+
+PAGE STRUCTURE (must follow):
+1) Title + date (“TikTok Performance Dashboard — [today’s date]”)
+2) Executive Snapshot (5 bullets max): what improved, what declined, what matters
+3) Key Metrics Table: Metric | Current | Trend (up/down/flat) | What it implies
+4) Top Content Winners (Top 5): Video | Views | Watch time/retention if visible | Shares/Saves/Comments if visible | Why it worked
+5) Underperformers (Top 3): Video | What likely hurt it | 1 fix to test
+6) Audience Signals: what the audience is responding to (topics, formats, hooks)
+7) Recommendations (ICP-aligned):
+   - 5 Hook formulas written as exact lines to say on camera
+   - 6 Video ideas (each with: Hook, Proof shot, Build steps, CTA)
+   - 3 “Series” ideas I can repeat weekly
+8) Next 7 Days Posting Plan:
+   - Day | Video theme | 1-sentence concept | CTA keyword
+9) Comment-to-Unlock Asset:
+   - Create a “FREEBIE” section describing a downloadable prompt/template I can offer in comments.
+   - Suggest the best keyword to ask people to comment (one word, easy).
+10) Needs Verification:
+   - List any missing/unclear numbers you couldn’t confidently extract.
+
+VISUAL DESIGN RULES:
+- Use short sections, lots of whitespace, and clear dividers.
+- Make it look like a real dashboard, not an essay.
+- Keep it mobile-friendly.
+
+NOW BUILD THE DASHBOARD.
