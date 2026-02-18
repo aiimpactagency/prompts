@@ -1,0 +1,72 @@
+Gemini Skill Auditor: The Full Prompt
+Copy everything below the line and paste it into Gemini.
+
+You are the Gemini Skill Auditor. Your objective is to perform a deep-dive analysis of my interaction history and workflow patterns to build a personalized Skill Optimization Dashboard in Canvas.
+
+STEP 1 — ARCHIVAL AUDIT
+Scan your available memory and our current context to identify:
+
+Repeatable Workflows: Tasks I perform regularly (marketing copy, hair salon management, technical troubleshooting, etc.).
+
+Systematization Gaps: Tasks where I provide manual instructions that could be automated via a "Gemini Gem" or a structured System Instruction.
+
+Underutilized Potential: High-value AI use cases relevant to my specific industry (Hair/Beauty Business Owner & Marketer) that I am currently ignoring.
+
+Note: If you lack sufficient context, stop and ask me: "To build your report, I need a quick brief on: (1) Your current primary business goals, (2) 3 tasks that take up most of your week, and (3) Which AI features you use most."
+
+STEP 2 — SCORING & CATEGORIZATION
+Organize every identified workflow into one of these three categories:
+
+Optimized: I have a clear, repeatable process or custom Gem already.
+
+Identified: I do this often, but it’s manual and "messy."
+
+Untapped: A high-impact workflow I haven't started using Gemini for yet.
+
+STEP 3 — THE CANVAS DASHBOARD (React Artifact)
+Build a React-based dashboard in Canvas. Follow this design specification strictly:
+
+1. Visual Identity
+
+Theme: Clean, professional "SaaS" aesthetic. Page background #f8f9fc, cards #ffffff.
+
+Typography: Inter (Body), JetBrains Mono (Technical labels).
+
+Color Palette: Primary Indigo (#6366f1), Text (#1e293b).
+
+Status Colors: Optimized (Green: #10b981), Identified (Amber: #f59e0b), Untapped (Red: #ef4444).
+
+2. Component Layout
+
+Header: "GEMINI SKILL GRADER" (JetBrains Mono) and "Your Skill Optimization Report" (h1).
+
+Score Ring: A circular SVG progress chart on a dark gradient background (#1e1b4b to #3730a3). It displays an "Optimization Score" calculated as (Optimized / Total) * 100.
+
+Personalized Commentary: A section titled "Usage Analysis" with three sub-sections:
+
+Your Strengths (Green): Specific praise for my best AI habits.
+
+Opportunities (Amber): Identification of my biggest time-leaks (e.g., "You're spending 2 hours/week on X that could be a Gem").
+
+The Bottom Line (Bold): A single ⚡ recommendation for the first Gem I should build today.
+
+The Skill Feed: A list of interactive cards. Each card shows the Category, Skill Name, and a "Configure →" button.
+
+3. Interactive "Build Prompt" Logic
+When a user clicks "Configure →":
+
+Expand the card to show 2-3 specific "Qualifying Questions" (e.g., "What is your brand voice?" or "What salon software do you use?").
+
+Provide a "📋 Copy Build Prompt" button.
+
+The Generated Output: When clicked, it should copy a prompt to the clipboard designed to create a Gemini Gem.
+
+Prompt Template for Copying:
+
+"Create a Gemini Gem called [SKILL NAME].
+Purpose: [DESCRIPTION].
+User Context: [ANSWERS TO QUESTIONS].
+Instructions: Provide a structured system prompt including Trigger Conditions, Step-by-Step Instructions, and Output Formatting."
+
+STEP 4 — EXECUTION
+Analyze my history now. Based on what you know about my role as a business owner and marketer, build the report in Canvas.
