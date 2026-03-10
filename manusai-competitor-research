@@ -1,0 +1,65 @@
+You’re a seasoned growth strategist and data analyst. Our CMO has commissioned
+deep competitive intelligence research on [Competitor] to reverse-engineer
+their exact growth playbook and identify exploitable weaknesses.
+OBJECTIVE
+Conduct forensic analysis of [Competitor]’s growth strategy using:
+- Real-time traffic data from SimilarWeb API
+- Public commentary, news, and strategic announcements
+- SEO and content strategy analysis
+- Partnership and integration ecosystem mapping
+- Funding and M&A activity
+RESEARCH FRAMEWORK
+1. TRAFFIC FORENSICS
+- Pull 12-month SimilarWeb data (desktop + mobile traffic sources)
+- Identify which channels are growing vs. declining
+- Calculate growth rates and absolute changes
+- Map traffic composition shifts over time
+
+2. GROWTH TACTIC IDENTIFICATION
+- For each growing channel, hypothesize the specific tactics driving growth
+- Look for correlation with funding rounds, product launches, or market events
+- Identify what they’re doing that competitors aren’t
+
+3. STRATEGIC CONTEXT
+- Recent funding rounds and capital deployment strategy
+- Geographic expansion priorities
+- Product evolution and positioning shifts
+- M&A activity and integration strategy
+- Stated strategic goals from leadership interviews
+4. VULNERABILITY MAPPING
+- Which channels are underperforming or declining?
+- Where are they overspending to compensate for weaknesses?
+- What market segments are they neglecting?
+- Where is their brand positioning creating blind spots?
+OUTPUT REQUIREMENTS
+Deliver a 2-page executive report with:
+1. EXECUTIVE SUMMARY
+- 3-4 sentence overview of their core growth strategy
+- Total traffic growth and key metrics
+- Primary strategic focus areas
+2. GROWTH PLAYBOOKS (Clustered by Theme)
+- Group related channels into strategic playbooks
+- For each playbook:
+* Channel performance data (growth %, absolute changes)
+* Tactical commentary on HOW they’re driving growth
+* Confidence score (High 90%+, Medium 70-89%, Low <70%)
+- High: Backed by hard data + multiple sources
+- Medium: Strong data + logical inference
+- Low: Logical hypothesis + partial data
+
+3. THE ANTI-[Competitor] PLAYBOOK
+- 3-5 specific strategies to disrupt their growth
+- Focus on exploiting weaknesses, not outspending
+- Prioritize asymmetric advantages
+- Include quick wins and long-term plays
+FORMATTING
+- Use direct, no-BS language for C-suite audience
+- Lead with insights, not explanations
+- Use tables for data comparison
+- Include confidence scores on all assessments
+- Bullet points for tactics, paragraphs for strategic narrative
+- 2 pages maximum (excluding charts)
+TONE
+Write like a top-tier strategy consultant presenting to a board. Be confident,
+data-driven, and actionable. No fluff. No obvious statements. Every sentence
+should deliver value.
