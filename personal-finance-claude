@@ -1,0 +1,153 @@
+# Build Your Own Family Wealth Tracker with Claude
+
+A complete, copy-paste guide to building a private family finance system. Hand each `PROMPT` block to Claude in order. Claude does the building; you answer a few questions along the way.
+
+**Best with:** Claude Code (can write files to your machine directly). Also works in Claude.ai with a Project — you'll just save the files Claude gives you by hand.
+
+**Time:** ~30 minutes for the tracker + goals. Another 15 if you wire up bank-statement cashflow. The life-plan PDF is a relaxed evening's work whenever you fancy it.
+
+**Privacy note to keep in mind:** everything below is designed to run locally. Don't paste this guide into a tool that uploads your financials anywhere you're not comfortable with. The output is a plain HTML file that runs in your browser.
+
+---
+
+## Before you start — decide a few things
+
+You'll build faster if you know these going in (but Claude will ask if you skip them):
+
+1. **What makes up your net worth?** Typical buckets: property (value + loan), retirement/super, shares, crypto, cash savings, vehicles/other assets.
+2. **Who's in the household?** Names/ages of partners, kids, pets — used in the optional life-plan PDF.
+3. **Your 3–6 big financial goals.** e.g. pay off a debt, max retirement contributions, build an emergency fund, hit a business revenue number, save for a house/move.
+4. **A target savings rate** for the cashflow side. A common split is 20% (10% invested + 10% saved). Pick a number.
+5. **Which bank accounts** you'll track, and whether they export CSV (most do).
+
+---
+
+## Part 1 — The Wealth Tracker
+
+> ### PROMPT 1 — copy everything in this block into Claude
+>
+> I want you to build a single-file, local family net-worth tracker as one `tracker.html` file. Requirements:
+>
+> **Tech:** Plain HTML/CSS/JS in one file. Use Chart.js v4 from a CDN for charts. Persist data in the browser's `localStorage`. No build step, no frameworks, no servers. It must work by double-clicking the file.
+>
+> **Data model:** A JS object with a `months` array. Each month has:
+> - `id` (`"YYYY-MM"`), `label` (e.g. `"Jan 2025"`), `notes`
+> - `property`: `{ value, loan }` (equity is derived = value − loan)
+> - `stocks`: an object of named holdings, e.g. `{ holdingA: 0, holdingB: 0 }` — ask me for my actual holdings
+> - `crypto`: an object of named tokens, e.g. `{ cash: 0, btc: 0, eth: 0 }`
+> - `savings`: an object of named accounts, e.g. `{ everyday: 0, savings: 0 }`
+> - `otherAssets`: an object, e.g. `{ vehicle: 0 }`
+> - `super`: retirement per person, e.g. `{ personA: 0, personB: 0 }`
+> - `businessRevenue`: a number or null (skip if not relevant to me)
+>
+> Net worth for a month = property equity + sum(stocks) + sum(crypto) + sum(savings) + sum(otherAssets) + sum(super). **Important: count property once — equity only, never the gross value on top of equity.**
+>
+> **Tabs:** Dashboard | Goals | Add Month | History | Settings.
+>
+> **Dashboard:** a hero "Total Net Worth" number for the latest month, with month-on-month, year-on-year, and financial-year-to-date deltas. KPI cards for property equity, liquid+investments, and super. Three charts: (1) net worth over time, (2) asset allocation donut for the latest month, (3) the loan/mortgage balance over time. Then a goal-progress section.
+>
+> **Add Month:** a form, pre-filled from the most recent month, so I only tweak what changed. Saving adds or updates that month.
+>
+> **History:** a table of every month with the category totals and net worth; clicking a row loads it into the form for editing.
+>
+> **Settings:** Export to a `data.json` file (download), Import from a `data.json` file, Reset to seed, and an editable household display name.
+>
+> **Charts must use a real time axis** (space points by actual date), so gaps in tracking show as gaps, not as evenly-spaced points that distort the story.
+>
+> **Aesthetic:** calm and considered, like a private-bank statement, not a busy budgeting app. Warm off-white background, a serif for big numbers, generous spacing, tabular figures for all money. One restrained accent colour.
+>
+> Before you write code, ask me: my household name, my actual stock holdings, crypto tokens, savings account names, other assets, and how many people's super to track. Then build it and seed it with one example month so it renders.
+
+**After PROMPT 1:** open `tracker.html`, go to **Add Month**, and enter your most recent month for real. Then **Settings → Export** to save your first `data.json` backup.
+
+---
+
+## Part 2 — Goals
+
+> ### PROMPT 2
+>
+> Add a Goals system to the tracker. Goals live in a `goals` array and render as cards with progress bars on both the Goals tab and the Dashboard. Each goal is editable inline (changes save to localStorage). Support these goal *types*, because different goals measure progress differently:
+>
+> - **`payoff`** — a debt to clear: `{ total, paid, monthlyTarget, targetDate }`. Progress = paid / total.
+> - **`lump`** — a one-off amount due by a date: `{ total, paid, dueDate }`.
+> - **`tracking`** — a balance you're chipping at: `{ currentBalance, basePayment, extraTargetMonthly }`.
+> - **`annual`** — a yearly contribution target: `{ annualTargetCombined, contributedThisFY }`. Progress vs the FY target.
+> - **`rate`** — a run-rate target like business revenue: `{ currentMonthlyAvg, targetAnnual }`. Progress = (monthly×12) / target.
+> - **`milestone`** — a future event with a target window: `{ targetWindowStart, targetWindowEnd }`.
+>
+> Each goal has an `icon` (emoji), `title`, and `note`. Ask me for my actual goals and set them up.
+
+---
+
+## Part 3 — Cashflow from Bank Statements
+
+This is the part that turns the tracker from a scoreboard into a decision tool. You feed Claude your bank statement CSVs; it categorises spending, strips out internal transfers, and tracks your savings rate.
+
+> ### PROMPT 3a — set up the cashflow tab
+>
+> Add a **Cashflow** tab to the tracker. It reads a `cashflow` object on the data: `{ targetSavingsRate: <number>, months: [...] }`. Each cashflow month has:
+> - `id`, `label`
+> - `income`: `{ <subcategory>: amount, ... }` (positive numbers)
+> - `essentials`, `lifestyle`, `family`: same shape (spending, stored positive)
+> - `investment`: capital deployed (e.g. money moved into investments / a business) — tracked separately from spending
+> - `uncategorised`: a single number for the long tail
+> - `totals`: `{ income, expenses, net, investment_out, savings_rate_pct }`
+>
+> The tab should show: a hero **savings rate** for the latest month vs my target (green if at/above, amber/red if below); a bar chart of income vs expenses across months; a category-breakdown donut for the latest month; and a table of subcategories with month-on-month change. Set my target savings rate to **<YOUR NUMBER, e.g. 20>%**.
+
+> ### PROMPT 3b — categorise my statements
+>
+> I'll put my bank statement CSV exports in a `statements/` folder, one file per account (e.g. `accountname_jan-mar.csv`). Read all of them and produce monthly cashflow data in the schema above. Rules:
+>
+> 1. **Normalise formats.** Different banks export different columns (some have a single signed Amount; others split Credit/Debit). Detect and handle each.
+> 2. **Strip internal transfers.** Money moving between *my own* accounts is neither income nor expense — net it out. Look for "transfer", matching debit/credit pairs, and transfers between accounts I tell you are mine.
+> 3. **Separate capital from spending.** Money I deploy into investments or a business is `investment`, not an expense — don't let it tank my "spending" figure.
+> 4. **Categorise the rest** by merchant/description patterns into income / essentials / lifestyle / family. Use sensible buckets (groceries, utilities, transport, dining out, subscriptions, shopping, healthcare, etc.).
+> 5. **Flag what you can't categorise** — show me a grouped list of unknown merchants by total value, and ask me about the big ones. I'll tell you what they are; you learn the mapping.
+> 6. **Keep the categorisation rules in a reusable script** so re-running next month is fast.
+>
+> Then write the monthly aggregates into my `data.json` under `cashflow`, and give me a short report: income, expenses, net, and savings rate per month, plus a 4-month (or however many) summary.
+>
+> Before you start, ask me: which accounts are mine (to identify internal transfers), where my income lands, and whether to include or exclude any business accounts.
+
+**Monthly habit:** each month, drop the new CSVs in `statements/`, tell Claude "new statements are in," and it re-runs the categoriser. Re-import the updated `data.json` into the tracker. ~5 minutes.
+
+---
+
+## Part 4 — The Annual Life-Plan PDF (optional, but the best part)
+
+A one-to-two page designed document you print and hang up each year. Not a balance sheet — a story. Where you came from, where you are, where you're going.
+
+> ### PROMPT 4
+>
+> Build a separate `life-plan.html` that I open in a browser and print to PDF (Cmd/Ctrl+P → Save as PDF → A4). It should be designed to feel like a keepsake, not a corporate report: a serif display face, warm paper colour, generous margins, restrained gold/ink accents, page breaks between sections. Sections:
+>
+> 1. **Cover** — family name, "Life Plan · [year]", a short motto.
+> 2. **Where we stand** — a snapshot of current net worth and a household roster (names, ages, pets).
+> 3. **Our story so far** — a few paragraphs of narrative. Interview me for this; write a first draft in my voice that I can edit.
+> 4. **The year ahead** — my active goals as an ordered list of priorities, each with a sentence on why.
+> 5. **The horizon** — a 3–5 year vision in a few short tiles.
+> 6. **Why we hang this up** — a short, honest closing reflection. This one's personal; ask me what I want my kids/future self to take from it.
+> 7. **(Optional) appendix** — a small table of net worth at a few past points, read plainly.
+>
+> Pull the numbers from my `data.json`. Use real figures, honestly — modest growth told straight beats inflated vanity numbers. Ask me for the narrative bits before writing them.
+
+---
+
+## Data schema reference
+
+See [`data.example.json`](data.example.json) for the full shape with dummy numbers. The whole system runs off this one object; export it any time to back up, import it to restore or move machines.
+
+---
+
+## Tips from people who've run this a while
+
+- **Export after every update.** `localStorage` is per-browser; a `data.json` in your cloud drive is your real backup.
+- **Don't chase 100% categorisation.** 95% in ten minutes beats 100% in four hours. The long tail rarely changes a decision.
+- **Make it a ritual, not a chore.** One coffee, once a month. Update the month, glance at the goals, decide one thing.
+- **Keep business and personal separate** unless you have a specific reason to merge them — they tell different stories and have different tax lives.
+- **The savings rate is the number that matters.** Net worth is the scoreboard; savings rate is the lever you actually pull.
+
+---
+
+*This guide is MIT licensed. Build it, change it, share it. Made to be handed to Claude.*
