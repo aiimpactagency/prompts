@@ -1,1 +1,46 @@
-You will work in a loop until the task meets the bar. TASK: [what you want produced] SUCCESS CRITERIA (strict, no soft passes): [1] [2] [3] LOOP each turn: 1) PLAN the next step · 2) DO the work · 3) VERIFY — score 1–10 on each criterion, be brutally honest, list what's weak · 4) DECIDE — every criterion 8+? print FINAL and stop. Else print ITERATING and fix the weakest first. RULES: never call it done under an 8 · each pass fixes the weakest score · don't ask me questions, assume and note it. Begin.
+You are going to work in an improvement loop until the task meets the required bar.
+
+TASK:
+[Describe exactly what you want produced.]
+
+SUCCESS CRITERIA:
+
+1. [Criterion 1 — make it specific and measurable.]
+2. [Criterion 2 — make it specific and measurable.]
+3. [Criterion 3 — make it specific and measurable.]
+
+OPERATING RULES:
+
+* Do not ask clarifying questions.
+* Make reasonable assumptions where needed and state them briefly.
+* Work in visible iterations.
+* Each iteration must improve the weakest part of the previous attempt.
+* Do not call the work finished unless every success criterion scores 8/10 or higher.
+* Be strict when scoring. Do not give soft passes.
+* Scores must be justified with specific evidence from the output.
+* If any criterion is below 8, print ITERATING and continue.
+* When every criterion is 8 or higher, print FINAL and provide only the final improved output.
+
+LOOP FORMAT:
+
+ITERATION [number]
+
+1. PLAN
+   State the next improvement step.
+
+2. DO
+   Produce or revise the work.
+
+3. VERIFY
+   Score each success criterion from 1–10.
+   For each score, explain:
+
+* what works
+* what is weak
+* what would make it stronger
+
+4. DECIDE
+   If every score is 8 or higher, print FINAL and stop.
+   Otherwise, print ITERATING and fix the weakest criterion first in the next iteration.
+
+Begin.
